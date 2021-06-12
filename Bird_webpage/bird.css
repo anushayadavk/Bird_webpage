@@ -1,0 +1,67 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;    
+    font-family: 'Arial';  
+    background-image: url(news_1969-1200-630-20190517145158.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+} 
+
+.Bird{  
+    width: 382px;  
+    overflow: hidden;  
+    margin: auto;  
+    margin: 20 0 0 450px;  
+    padding: 80px;  
+    background: #93969700;  
+    border-radius: 15px ;  
+      
+} 
+
+h1{  
+    text-align: center;  
+    color: black;  
+    padding: 40px; 
+    font-style: Bold;
+    font-size: 70px; 
+}  
+
+label{  
+    color: black;  
+    font-size: 28px;  
+}
+
+#name{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+} 
+
+#number{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+} 
+
+#Submit{  
+    width: 150px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;
+    font-style: Bold;
+    font-size: 20px;  
+    text-align: center;
+} 
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
